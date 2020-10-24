@@ -1,0 +1,133 @@
+.logo
+{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.menu
+{
+    overflow: hidden;
+    font-size: 14;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    margin-top: 50px; 
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+    
+}
+
+li
+{
+    display: inline;
+   
+}
+li a
+{       
+    text-align: center;
+    padding: 16px 18px;
+    color: white;
+}
+
+a
+{    color: white;
+    font-weight: bold;
+    
+}
+
+a:hover
+{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+.search
+{
+    background-color: darkred;
+    color: white;
+    border: none;
+    width: 50px;
+}
+
+.stories-title {
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 4px solid #c80000;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: left;
+}   
+element.style
+{
+background-image: url(https://xtratime.in/wp-content/uploads/2020/10/Dc0hzIvWAAApC-g.jpg);
+}
+
+.post-img-wrap .post-img, .page-single-img-wrap .post-img {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 10px;
+    bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    transform: scale(1.006);
+    -webkit-transform: scale(1.006);
+    -moz-transform: scale(1.006);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+.post-boxed .entry-title a:hover {
+    text-decoration: none;
+}
+.entry-title a:hover, .entry-title a:focus {
+    color: #c80000;
+    text-decoration: none;
+}
+.entry-title a {
+    color: #333333;
+}
+
+a{
+    color: black;
+}
+.img_story
+{
+    height: 200px;
+}
+
+.pop-stories
+{
+    display: inline;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column-card
+{
+    width: 25%;
+}
